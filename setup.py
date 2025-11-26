@@ -116,6 +116,7 @@ This matches the hyperparameters used in the Subliminal Learning repo as well
         max_grad_norm=1.0,
         warmup_steps=5,
         save_steps=save_steps,
+        skip_hf_push=True,
         resume_from_checkpoint=resume_from_checkpoint
     )
 

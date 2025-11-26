@@ -72,4 +72,5 @@ data/
 unsloth_compiled_cache
 trainer_output
 fine_tune_on_control_numbers
+trainer_output-bak
 

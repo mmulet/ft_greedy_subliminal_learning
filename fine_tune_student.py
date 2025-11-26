@@ -1,8 +1,8 @@
 # Fine-tune the student model
 # Output not shown to prevent this notebook from being huge.
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-os.environ["VLLM_N_GPUS"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
+os.environ["VLLM_N_GPUS"] = "4"
 from sl.finetuning.services import run_finetuning_job
 from sl.datasets import services as dataset_services
 from setup import run_folder, otter_ft_job
